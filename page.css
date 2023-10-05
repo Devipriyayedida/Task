@@ -1,0 +1,117 @@
+@font-face{
+  font-family:content ;
+  src:url(calibri-regular.ttf);
+  /* font-family: navbar ;
+  src:url(arial_narrow.ttf) */
+}
+
+
+body {
+ margin: 0;
+
+  } 
+
+  .header {
+background-color: #3796c9;
+margin-top: 0px;
+padding: 30px;
+height: 49px;
+font-family: 'Roboto', sans-serif;
+text-align: left;
+font-size: 46px;
+color:#ffff;
+  
+  }
+  .navbar {
+     overflow: hidden;
+  
+    background-color: #333;
+   
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  
+  }
+
+
+.navbar a {
+display: inline-block;
+color: #f2f2f2;
+text-align: center;
+
+padding-top: 14px;
+/* padding-right: 10px; */
+padding-bottom: 14px;
+/* padding-left: 27px; */
+text-decoration: none;
+}
+.Home{
+  padding-left: 29px;
+}
+.Services{
+  padding-left: 25px;
+}
+.Careers{
+  padding-left: 30px;
+}
+.Contact{
+  padding-left: 41px;
+}
+.image {
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+ .news1 {
+ background-color: white;
+ width: 42%;
+ border: 1px solid lightgray;
+ margin: 22px 50px;
+
+ }
+ li::before {
+      content: " -";
+    }
+li{
+      list-style: none;
+      padding-left : 20px;
+      font-family: 'content';
+      padding-top: 8px;
+
+     }
+.news {
+
+ height: 2px;
+ display: block;
+ font-family: content;
+ margin: 7px !important;
+ font-size: 20px;
+
+}
+ul{
+
+  line-height: 33px;
+  padding-left:3px
+}
+  .welcome{
+  
+  margin-left: 50px;
+  width: 65vw;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+ 
+  }
+  .Welcome-text{
+    font-family: sans-serif;
+   font-size: 20px;
+    line-height: 17px;
+    padding-top:9px;
+    
+  }
+  .content {
+
+    margin-top: 20px;
+    font-family:content ;
+  }

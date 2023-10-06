@@ -1,67 +1,47 @@
-@font-face{
-  font-family:content ;
-  src:url(calibri-regular.ttf);
-  /* font-family: navbar ;
-  src:url(arial_narrow.ttf) */
-}
-
-
 body {
  margin: 0;
-
-  } 
-
-  .header {
+} 
+.header {
 background-color: #3796c9;
 margin-top: 0px;
-padding: 30px;
-height: 49px;
+padding: 30px 24px;
 font-family: 'Roboto', sans-serif;
 text-align: left;
 font-size: 46px;
 color:#ffff;
+
   
   }
   .navbar {
-     overflow: hidden;
-  
     background-color: #333;
-   
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 20px;
-  
-  }
-
-
-.navbar a {
+    font-size: 16px;
+    color: #f2f2f2;
+    height: 44px;
+    }
+.home {
 display: inline-block;
 color: #f2f2f2;
+font-family:Arial;
+font-weight: bolder;
 text-align: center;
-
 padding-top: 14px;
-/* padding-right: 10px; */
+padding-right: 31px;
 padding-bottom: 14px;
-/* padding-left: 27px; */
+
+
+
 text-decoration: none;
+
 }
-.Home{
-  padding-left: 29px;
-}
-.Services{
-  padding-left: 25px;
-}
-.Careers{
-  padding-left: 30px;
-}
-.Contact{
-  padding-left: 41px;
+ul{
+  margin-top: 0px;
+  padding-left: 27px;
 }
 .image {
 
     float: right;
     margin-top: 10px;
-    margin-right: 25px;
+    margin-right: 34px;
   }
  .news1 {
  background-color: white;
@@ -70,32 +50,31 @@ text-decoration: none;
  margin: 22px 50px;
 
  }
- li::before {
-      content: " -";
+ .news2::before {
+      content: "-";
     }
-li{
+    .news2{
       list-style: none;
-      padding-left : 20px;
-      font-family: 'content';
-      padding-top: 8px;
+      padding-left : 13px;
+      font-family:'Segoe UI';
+    font-size: 15px;
+    font-weight: 500;
+      padding-top: 21px;
 
      }
 .news {
 
  height: 2px;
  display: block;
- font-family: content;
+ font-family:'Segoe UI';
  margin: 7px !important;
- font-size: 20px;
+ font-size: 18px;
 
 }
-ul{
-
-  line-height: 33px;
+.news3{
   padding-left:3px
 }
   .welcome{
-  
   margin-left: 50px;
   width: 65vw;
   overflow-wrap: break-word;
@@ -104,14 +83,15 @@ ul{
  
   }
   .Welcome-text{
-    font-family: sans-serif;
-   font-size: 20px;
-    line-height: 17px;
-    padding-top:9px;
+    font-family:'Segoe UI';
+   font-size: 18px;
+    line-height: 30px;
+    padding-top:22px;
     
   }
   .content {
-
     margin-top: 20px;
-    font-family:content ;
-  }
+    font-family:'Segoe UI';
+    font-size: 15px;
+    font-weight: 500;
+   }
